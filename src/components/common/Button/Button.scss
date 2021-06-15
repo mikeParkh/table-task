@@ -1,0 +1,8 @@
+.button-base {
+  display: inline-flex;
+  flex-direction: column;
+  
+  &__body {
+    width: 100px;
+  }
+}

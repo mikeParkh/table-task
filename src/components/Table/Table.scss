@@ -1,0 +1,45 @@
+@import '../../styles/theme.scss';
+
+.table {
+  border-spacing: 0;
+
+  &__thead {
+    border-spacing: 3px;
+    border-bottom: 3px solid black;
+  }
+
+  &__th, &__td {
+    padding: 20px 30px;
+  }
+
+  &__th {
+    background-color: $gr3;
+  }
+
+  &__tr {
+    border-collapse: collapse;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $gr3;
+      transition: all 0.2s ease-in;
+    }
+
+    &_active, &_active:hover {
+      background-color: $gr2;
+      transition: all 0.2s ease-in;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  &__element {
+    cursor: pointer;
+    padding: 0 5px;
+  }
+}

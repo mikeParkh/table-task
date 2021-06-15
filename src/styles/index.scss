@@ -1,0 +1,24 @@
+@import './theme.scss';
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+a, a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
